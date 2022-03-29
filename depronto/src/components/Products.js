@@ -13,11 +13,11 @@ const Products = () => {
     setLoading(true);
     axios({
       method: "GET",
-      url: "https://fakestoreapi.com/products",
+      url: "https://dummyjson.com/products",
     })
       .then((res) => {
         console.log(res.data);
-        setData(res.data);
+        setData(res.data.products);
       })
       .catch((e) => console.log(e))
       .finally(() => setLoading(false));
@@ -38,7 +38,7 @@ const Products = () => {
           <Col>
             <Link to={`/product/${product.id}`}>
               <Card>
-              <Card.Img variant="top" src={product.image} />
+              <Card.Img variant="top" src={product.images[0]} />
               <Card.Body>
               <Card.Title>{product.title}</Card.Title>
               <Card.Text>

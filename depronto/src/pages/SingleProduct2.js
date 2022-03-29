@@ -17,7 +17,7 @@ class SingleProduct2 extends React.Component {
     //It will run once when the app load
     axios({
     method: "GET",
-    url: "https://fakestoreapi.com/products/"+props,
+    url: "https://dummyjson.com/products/"+props,
     })
     .then((res) => {
         console.log(res.data);

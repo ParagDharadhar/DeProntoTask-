@@ -17,37 +17,31 @@ const Banner = () => {
         <Carousel>
         <Carousel.Item>
             <img 
-            src='https://img.freepik.com/free-psd/headphone-brand-product-sale-facebook-cover-banner_161103-93.jpg?w=2000'
+            src='https://i.pinimg.com/originals/cd/1c/7c/cd1c7cbd61e5f596d2d59ae2ea7b3d9c.jpg'
             alt="lol" 
             className="banner">
             </img>
             <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
             className="banner"
-            src="https://img.freepik.com/free-psd/headphone-brand-product-sale-facebook-cover-banner_161103-93.jpg?w=2000"
+            src="https://i.pinimg.com/736x/ca/e7/2c/cae72ce86998abcadd5051acd91a696b.jpg"
             alt="Second slide"
             />
 
             <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
             className="banner"
-            src="https://img.freepik.com/free-psd/headphone-brand-product-sale-facebook-cover-banner_161103-93.jpg?w=2000"
+            src='https://images-eu.ssl-images-amazon.com/images/G/31/img19/Wireless/Rakshabandhan/D11399736_Rakshabandhan_Fest_Desktop-Header._CB1198675309_.jpg'
             alt="Third slide"
             />
 
             <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
