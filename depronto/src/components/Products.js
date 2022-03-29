@@ -32,20 +32,6 @@ const Products = () => {
         </div>
       )}
 
-      {/* {data.map((product)=> ( 
-        <div className="grid-container">
-          <Link to={`/product/${product.id}`}>
-          <div key={product.id} className="card">
-           <div><img src={product.image} alt="#"/></div>
-           <div className="card-description">
-               <h6>{product.title}</h6>
-               <h6>{`Price: ${product.price}`}</h6>
-               <h6>{`Category: ${product.category}`}</h6>
-           </div>
-          </div>
-          </Link>
-          </div>
-      ))} */}
 
       <Row xs={1} md={2} className="g-4">
         {Array.from(data).map((product) => (
