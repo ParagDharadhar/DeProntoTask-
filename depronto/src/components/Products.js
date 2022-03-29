@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import axios from "axios";
-import {Button} from 'react-bootstrap';
+import {Button, Row, Col, Card} from 'react-bootstrap';
 import {Link } from 'react-router-dom'
 
 const Products = () => {
@@ -32,7 +32,7 @@ const Products = () => {
         </div>
       )}
 
-      {data.map((product)=> ( 
+      {/* {data.map((product)=> ( 
         <div className="grid-container">
           <Link to={`/product/${product.id}`}>
           <div key={product.id} className="card">
@@ -45,25 +45,25 @@ const Products = () => {
           </div>
           </Link>
           </div>
-      ))}
+      ))} */}
 
-      {/* <Row xs={1} md={2} className="g-4">
-                  {Array.from({ length: 4 }).map((_, idx) => (
-                    <Col>
-                      <Link to={`/product/${product.id}`}>
-                      <Card>
-                      <Card.Img variant="top" src={product.image} />
-                      <Card.Body>
-                        <Card.Title>{product.title}</Card.Title>
-                        <Card.Text>
-                          {`Price: ${product.price}`}
-                        </Card.Text>
-                      </Card.Body>
-                      </Card>
-                      </Link>
-                    </Col>
-                  ))}
-                </Row> */}
+      <Row xs={1} md={2} className="g-4">
+        {Array.from(data).map((product) => (
+          <Col>
+            <Link to={`/product/${product.id}`}>
+              <Card>
+              <Card.Img variant="top" src={product.image} />
+              <Card.Body>
+              <Card.Title>{product.title}</Card.Title>
+              <Card.Text>
+              {`Price: ${product.price}`}
+              </Card.Text>
+              </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          ))}
+      </Row>
     </div>
   );
 };

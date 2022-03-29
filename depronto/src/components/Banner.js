@@ -17,7 +17,7 @@ const Banner = () => {
         <Carousel>
         <Carousel.Item>
             <img 
-            src='https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg?cs=srgb&dl=pexels-ray-piedra-1478442.jpg&fm=jpg'
+            src='https://img.freepik.com/free-psd/headphone-brand-product-sale-facebook-cover-banner_161103-93.jpg?w=2000'
             alt="lol" 
             className="banner">
             </img>
@@ -29,7 +29,7 @@ const Banner = () => {
         <Carousel.Item>
             <img
             className="banner"
-            src="https://images.pexels.com/photos/9660931/pexels-photo-9660931.jpeg?cs=srgb&dl=pexels-jonathan-cooper-9660931.jpg&fm=jpg"
+            src="https://img.freepik.com/free-psd/headphone-brand-product-sale-facebook-cover-banner_161103-93.jpg?w=2000"
             alt="Second slide"
             />
 
@@ -41,7 +41,7 @@ const Banner = () => {
         <Carousel.Item>
             <img
             className="banner"
-            src="https://images.pexels.com/photos/2877549/pexels-photo-2877549.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://img.freepik.com/free-psd/headphone-brand-product-sale-facebook-cover-banner_161103-93.jpg?w=2000"
             alt="Third slide"
             />
 
