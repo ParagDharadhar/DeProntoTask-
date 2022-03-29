@@ -46,6 +46,24 @@ const Products = () => {
           </Link>
           </div>
       ))}
+
+      {/* <Row xs={1} md={2} className="g-4">
+                  {Array.from({ length: 4 }).map((_, idx) => (
+                    <Col>
+                      <Link to={`/product/${product.id}`}>
+                      <Card>
+                      <Card.Img variant="top" src={product.image} />
+                      <Card.Body>
+                        <Card.Title>{product.title}</Card.Title>
+                        <Card.Text>
+                          {`Price: ${product.price}`}
+                        </Card.Text>
+                      </Card.Body>
+                      </Card>
+                      </Link>
+                    </Col>
+                  ))}
+                </Row> */}
     </div>
   );
 };
