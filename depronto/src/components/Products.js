@@ -8,7 +8,6 @@ const Products = () => {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
 
-  //It will run once when the app load
   useEffect(() => {
     setLoading(true);
     axios({
